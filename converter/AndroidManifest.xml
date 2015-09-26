@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.gatech.seclass"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Distance"
+            android:label="@string/title_activity_distance" >
+        </activity>
+        <activity
+            android:name=".Area"
+            android:label="@string/title_activity_area" >
+        </activity>
+        <activity
+            android:name=".Currency"
+            android:label="@string/title_activity_currency" >
+        </activity>
+        <activity
+            android:name=".Fluid"
+            android:label="@string/title_activity_fluid" >
+        </activity>
+        <activity
+            android:name=".Weight"
+            android:label="@string/title_activity_weight" >
+        </activity>
+        <activity
+            android:name=".Area1"
+            android:label="@string/title_activity_area1" >
+        </activity>
+        <activity
+            android:name=".Area2"
+            android:label="@string/title_activity_area2" >
+        </activity>
+        <activity
+            android:name=".Currency1"
+            android:label="@string/title_activity_currency1" >
+        </activity>
+        <activity
+            android:name=".Currency2"
+            android:label="@string/title_activity_currency2" >
+        </activity>
+        <activity
+            android:name=".Distance1"
+            android:label="@string/title_activity_distance1" >
+        </activity>
+        <activity
+            android:name=".Distance2"
+            android:label="@string/title_activity_distance2" >
+        </activity>
+        <activity
+            android:name=".Fluid1"
+            android:label="@string/title_activity_fluid1" >
+        </activity>
+        <activity
+            android:name=".Fluid2"
+            android:label="@string/title_activity_fluid2" >
+        </activity>
+        <activity
+            android:name=".Weight1"
+            android:label="@string/title_activity_weight1" >
+        </activity>
+        <activity
+            android:name=".Weight2"
+            android:label="@string/title_activity_weight2" >
+        </activity>
+    </application>
+
+</manifest>

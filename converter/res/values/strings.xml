@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">converter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_distance">Convert Distance</string>
+    <string name="title_activity_area">Convert Area</string>
+    <string name="title_activity_currency">Convert Currency</string>
+    <string name="title_activity_fluid">Convert Fluid</string>
+    <string name="title_activity_weight">Convert Weight</string>
+    <string name="title_activity_area1">FT to M</string>
+    <string name="title_activity_area2">M to FT</string>
+    <string name="title_activity_currency1">Dollar to Euro</string>
+    <string name="title_activity_currency2">Euro to Dollar</string>
+    <string name="title_activity_distance1">Miles to Kilometers</string>
+    <string name="title_activity_distance2">Kilometers to Miles</string>
+    <string name="title_activity_fluid1">Fluid Ounces to Liters</string>
+    <string name="title_activity_fluid2">Liters to Fluid Ounces</string>
+    <string name="title_activity_weight1">Pounds to Kilograms</string>
+    <string name="title_activity_weight2">Kilograms to Pounds</string>
+
+</resources>
