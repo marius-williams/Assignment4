@@ -8,16 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="edu.gatech.seclass.MainActivity" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="Choose what units to convert."
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -68,8 +58,27 @@
         android:layout_alignLeft="@+id/button2"
         android:layout_alignRight="@+id/button2"
         android:layout_below="@+id/textView1"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="35dp"
         android:onClick="sendMessage"
         android:text="FT to M" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="(Each option converts both ways.)"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Choose units to convert."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
