@@ -7,6 +7,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class Currency2 extends Activity {
 
@@ -35,9 +36,15 @@ public class Currency2 extends Activity {
 
 				public void onClick(View view)
 	            {
-	            	 convertedAnswer = calculate(Double.parseDouble(euro.getText().toString()));
+					try{
+	            	convertedAnswer = calculate(Double.parseDouble(euro.getText().toString()));
 	     		    answer = String.valueOf(convertedAnswer);
 	                dollar.setText(answer);
+					}
+					catch(Exception e){
+	            		Toast.makeText(getApplicationContext(), "Please enter a value in the first field.",
+	            		Toast.LENGTH_SHORT).show();
+	            	}
 	            }
 	        });
 		

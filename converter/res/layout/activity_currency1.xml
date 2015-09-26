@@ -15,7 +15,7 @@
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
-        android:text="The answer in Euros is:"
+        android:text="The answer in euros is:"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <EditText
